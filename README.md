@@ -2,7 +2,7 @@
 
 模板内容如下：
 
-早安宝宝 {{friendName.DATA}} 
+宝宝 {{friendName.DATA}} 
 记得吃早餐 喝一点牛奶
 地区：{{region.DATA}} 
 
