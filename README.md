@@ -1,3 +1,7 @@
+# daily_reminder
+
+模板内容如下：
+
 宝宝 {{friendName.DATA}} 
 记得吃早餐 喝一点牛奶
 地区：{{region.DATA}} 
@@ -16,3 +20,4 @@
 
 {{note_en.DATA}} 
 {{note_ch.DATA}}
+
