@@ -123,7 +123,7 @@ def send_message(to_user, access_token, region_name, weather, temp, wind_dir, no
     day = localtime().tm_mday
     today = datetime.date(datetime(year=year, month=month, day=day))
     # 见面日期定义
-    meet = datetime.date（datetime（year=2023，month=1， day=1））
+    meet = datetime.date(datetime(year=2023, month=1, day=1))
     week = week_[today.isoweekday() % 7]
     # 获取在一起的日子的日期格式
     love_year = int(config["love_date"].split("-")[0])
@@ -139,7 +139,7 @@ def send_message(to_user, access_token, region_name, weather, temp, wind_dir, no
     meet_date = date(meet_year, meet_month, meet_day)
     # 获取见面的日期差
     meet_days = str(meet.__sub__(today)).split(" ")[0]
-    print("见面还有"+meet_days+"天"）
+    print("见面还有"+meet_days+"天")
     # 获取所有生日数据
     birthdays = {}
     for k, v in config.items():
