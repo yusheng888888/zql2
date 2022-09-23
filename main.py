@@ -129,14 +129,14 @@ def send_message(to_user, access_token, region_name, weather, temp, wind_dir, no
     love_day = int(config["love_date"].split("-")[2])
     love_date = date(love_year, love_month, love_day)
     # 获取在一起的日期差
-    love_days = str(today.__sub__(love_date)).split(" ")[0]
+    meet_days = str(today.__sub__(love_date)).split(" ")[0]
     # 获取见面的日子的日期格式
     meet_year = int(config["love_date"].split("-")[0])
-    leet_month = int(config["love_date"].split("-")[1])
-    leet_day = int(config["love_date"].split("-")[2])
-    leet_date = date(love_year, love_month, love_day)
+    meet_month = int(config["love_date"].split("-")[1])
+    meet_day = int(config["love_date"].split("-")[2])
+    meet_date = date(love_year, love_month, love_day)
     # 获取在一起的日期差
-    leet_days = str(today.__sub__(love_date)).split(" ")[0]
+    meet_days = str(today.__sub__(love_date)).split(" ")[0]
     # 获取所有生日数据
     birthdays = {}
     for k, v in config.items():
