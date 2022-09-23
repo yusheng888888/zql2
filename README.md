@@ -1,4 +1,4 @@
- daily_reminder
+# daily_reminder
 
 模板内容如下：
 
@@ -19,4 +19,3 @@
 
 {{note_en.DATA}} 
 {{note_ch.DATA}}
-
